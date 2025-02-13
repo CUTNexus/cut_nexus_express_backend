@@ -1,4 +1,3 @@
-// src/config/firebase.ts
 import * as admin from 'firebase-admin';
 import dotenv from 'dotenv';
 
