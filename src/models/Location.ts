@@ -1,0 +1,31 @@
+export interface Location {
+    id?: string;
+    name: string;
+    type: string;
+    description: string;
+    notes: string;
+    latitude: number;
+    longitude: number;
+    elevation: number;
+    building: string;
+    accessibleEntryPoint: boolean;
+    roomPurpose: string;
+    hours: string;
+    accessType: string;
+    facilities: string[];
+    accessibility: string[];
+    nearbyLandmarks: string;
+    imageUrls: string[];
+    navigationPriority: string;
+    signageDetails: string;
+    powerAvailability?: string;
+    safetyFeatures: string[];
+    wifiAvailability: boolean;
+    proximityToRestAreas: string;
+    qrCodeOrArMarkerId: string;
+    historicalOrSignificanceNotes: string;
+    departments: string[];
+    capacity: number;
+    lastMaintenanceDate: string;
+    specialEquipment: Record<string, any>;
+}
